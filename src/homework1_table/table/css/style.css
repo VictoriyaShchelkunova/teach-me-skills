@@ -1,0 +1,15 @@
+tbody tr td:last-child{
+    color: yellow;
+}
+
+tbody ul{
+    color: blue;
+}
+
+ [colspan='2']{
+    color: red;
+}
+
+
+
+
