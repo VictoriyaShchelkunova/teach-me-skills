@@ -1,0 +1,107 @@
+
+.container {   
+    height: 619px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.header{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.header div {
+    width: 19.94%;
+    background-color: rgb(115, 115, 207);
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 72%;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    width: 19.94%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left div {
+    width: 100%;
+    height: 35%;
+    background-color: red;
+
+}
+.left div:nth-child(1) {
+    width: 100%;
+    height: 25%;
+}
+
+.center {
+    width: 38%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.purple{
+   box-sizing: border-box;
+    height: 41%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;    
+}
+
+.purple div {
+    width: 33%;
+    background-color: purple;   
+}
+
+.yellow{
+   box-sizing: border-box;
+    height: 56%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.yellow div {
+    width: 49.7%;
+    background-color: yellow;
+}
+
+.right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.right div {
+    width: 100%;
+    height: 34%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;  
+   
+}
+
+.top div, .middle div, .bottom div {
+    width: 49.9%;
+    height: 100%;
+    background-color: aqua;
+    
+}
+
+.top, .middle {
+    padding-bottom: 7px;
+   
+}
+.middle, .bottom {
+    padding-top: 7px;
+    border-top: 1px solid black;
+}
