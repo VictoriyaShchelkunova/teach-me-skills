@@ -1,0 +1,152 @@
+.container {
+    display: grid;
+    width: 1100px;
+    height: 570px;
+    grid-template: repeat(16, 1fr)/ repeat(15, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 8px;
+    grid-template-areas:
+    "lb1 lb1 lb1 lb2 lb2 lb2 lb3 lb3 lb3 lb4 lb4 lb4 lb5 lb5 lb5"
+    "lb1 lb1 lb1 lb2 lb2 lb2 lb3 lb3 lb3 lb4 lb4 lb4 lb5 lb5 lb5"
+    "lb1 lb1 lb1 lb2 lb2 lb2 lb3 lb3 lb3 lb4 lb4 lb4 lb5 lb5 lb5"
+    "lb1 lb1 lb1 lb2 lb2 lb2 lb3 lb3 lb3 lb4 lb4 lb4 lb5 lb5 lb5"
+    "r1 r1 r1 p1 p1 p2 p2 p3 p3 t1 t1 t1 t2 t2 t2"
+    "r1 r1 r1 p1 p1 p2 p2 p3 p3 t1 t1 t1 t2 t2 t2"
+    "r2 r2 r2 p1 p1 p2 p2 p3 p3 t1 t1 t1 t2 t2 t2"
+    "r2 r2 r2 p1 p1 p2 p2 p3 p3 t1 t1 t1 t2 t2 t2"
+    "r2 r2 r2 ye1 ye1 ye1 ye2 ye2 ye2 t3 t3 t3 t4 t4 t4"
+    "r2 r2 r2 ye1 ye1 ye1 ye2 ye2 ye2 t3 t3 t3 t4 t4 t4"
+    "r2 r2 r2 ye1 ye1 ye1 ye2 ye2 ye2 t3 t3 t3 t4 t4 t4"
+    "r3 r3 r3 ye1 ye1 ye1 ye2 ye2 ye2 t3 t3 t3 t4 t4 t4"
+    "r3 r3 r3 ye1 ye1 ye1 ye2 ye2 ye2 t5 t5 t5 t6 t6 t6"
+    "r3 r3 r3 ye1 ye1 ye1 ye2 ye2 ye2 t5 t5 t5 t6 t6 t6"
+    "r3 r3 r3 ye1 ye1 ye1 ye2 ye2 ye2 t5 t5 t5 t6 t6 t6"
+    "r3 r3 r3 ye1 ye1 ye1 ye2 ye2 ye2 t5 t5 t5 t6 t6 t6";
+    
+}
+
+.lb1, .lb2, .lb3, .lb4, .lb5 {
+    background-color: royalblue;
+}
+
+.lb1 {
+    grid-area: lb1;
+}
+.lb2 {
+    grid-area: lb2;
+}
+.lb3 {
+    grid-area: lb3;
+}
+.lb4 {
+    grid-area: lb4;
+}
+.lb5 {
+    grid-area: lb5;
+}
+
+.r1, .r2, .r3 {
+    background-color: red;
+}
+.r2 {
+    grid-area: r2;
+}
+
+.r1{
+    grid-area: r1;
+    
+}
+.r3{
+    grid-area: r3;
+}
+
+.p1, .p2, .p3 {
+    background-color: purple;
+}
+
+.p1 {
+
+    grid-area: p1;
+    margin-left: 16px;
+
+}
+.p2 {
+    grid-area: p2;
+}
+.p3 {
+    grid-area: p3;
+    margin-right: 16px;
+}
+
+.t1, .t2, .t3, .t4, .t5, .t6 {
+    background-color: turquoise;
+}
+
+.t1 {
+    grid-area: t1;
+    margin-bottom: 16px;    
+}
+.t2 {
+    grid-area: t2;
+    margin-bottom: 16px;
+}
+.t3 {
+    grid-area: t3;
+    margin-bottom: 16px;
+}
+.t4 {
+    grid-area: t4;
+    margin-bottom: 16px;
+}
+
+.t5 {
+    grid-area: t5;
+}
+.t6 {
+    grid-area: t6;
+}
+
+.ye1, .ye2 {
+    background-color: yellow;
+}
+
+.ye1 {
+    grid-area: ye1;
+    margin-left: 16px;
+    
+}
+.ye2 {
+    grid-area: ye2;
+    margin-right: 16px;
+}
+
+.main {
+    grid-row-start: 5;
+    grid-row-end: 17;
+    grid-column-start: 4;
+    grid-column-end: 10;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.wrap-t1-t2 {
+    grid-row-start: 5;
+    grid-row-end: 9;
+    grid-column-start: -1;
+    grid-column-end: -7;
+    border-bottom: 1px solid black;  
+    margin-bottom: 4px;
+    
+}
+
+.wrap-t3-t4 {
+    grid-row-start: 9;
+    grid-row-end: 13;
+    grid-column-start: -1;
+    grid-column-end: -7;
+    border-bottom: 1px solid black;  
+    margin-bottom: 4px;
+    
+}
