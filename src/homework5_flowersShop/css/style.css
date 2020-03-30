@@ -1,0 +1,377 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px 0;
+}
+
+.header-main-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login{
+    background: none;
+    border: none;
+    border-right: 2px solid black;
+    margin-left: 10px;
+    font-weight: bold; 
+    height: 20px;   
+}
+
+.register {
+    background: none;
+    border: none;
+    font-weight: bold;
+    padding-right: 200px;    
+}
+.contact {
+    display: grid;
+    grid-template: repeat(2, 20px)/repeat(4, 200px);
+    grid-template-areas: 
+    "phone text1 text1 text1"
+    "phone text2 text2 text2";
+    grid-column-gap: 4px;
+    align-items: center;
+    font-size: 15px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.icon-phone{
+    display: flex;
+    justify-content: flex-end;
+    grid-area: phone;
+    font-size: 30px;    
+}
+
+.text1{
+    grid-area: text1;
+}
+
+.text2{
+    grid-area: text2;
+}
+.h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    margin-left: 100px;
+}
+
+.font-grey, .search-form{
+    color: grey;
+}
+
+.search {
+    display: flex;
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 180px;
+}
+.search-form{
+    border: 1px solid grey;
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 5px;
+
+}
+.icon-search{
+    display: flex;
+    font-size: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top: 1px solid grey;    
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    color: grey;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.header-main-middle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.main-nav, .features {
+   padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    border-bottom: 2px solid lightgray;
+}
+.main-nav div:first-child, .features div:first-child{
+    margin-left: 170px;
+}
+.main-nav div:nth-child(11), .features div:last-child{
+    margin-right: 170px;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-shopping-cart{
+   background: none;
+   border: none;
+}
+.fa-lock{
+    color: blue;
+}
+.fa-truck-moving{
+    color: red;
+}
+.fa-thumbs-up{
+    color: green;
+}
+
+.article-nav{
+    width: 200px;
+    height: 450px;
+   margin-left: 175px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+article {
+    display: flex;
+    background: rgba(243, 242, 242, 0.74);
+}
+.article-nav-order, .article-nav-corporate, .article-nav-handcrafted{
+    padding-left: 10px;
+    display: flex;
+    height: 110px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.double-dotted{
+    border-bottom: 2px dotted grey;
+    border-top: 2px dotted grey;
+    padding-bottom: 5px;
+    padding-top: 1px;
+    margin-right: 105px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+
+.font-size{
+    font-size: 14px;
+}
+
+.border-bottom{
+    border-bottom: 2px solid lightgray;
+}
+.padding-bottom{
+    padding-bottom: 20px; 
+}
+.image-background{
+    display: grid;
+    grid-template: repeat(14, 35px)/ repeat(10, 70px);
+}
+.first-row{
+    grid-row: 5/7;
+    grid-column: -6/-2;
+    font-size: 50px;
+    font-family: "Nautiluspompilius";
+    border-bottom: 1px solid lightgray;
+    
+}
+
+@font-face {
+ 
+    font-family: "Nautiluspompilius";      
+    src: url("../font/nautiluspompilius.ttf"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+.red {
+    color: red;
+}
+.second-row{
+    grid-row: 7/8;
+    grid-column: -6/-2;
+    font-size:18px;
+    padding-top: 5px;
+    border-bottom: 1px solid lightgray;
+    
+}
+.article-button {
+    height: 30px;
+    font-size: 14px;
+    border-radius: 15px;
+    font-weight: bold;
+    border-top: 1px solid grey;    
+    border-left: 1px solid grey;
+    background: none;
+    
+}
+.third-row{
+    padding-top: 15px;
+    grid-row: 8/9;
+    grid-column: -5/-3;
+}
+
+.featured-products, .new-arrivals, .most-popular{
+    padding-top: 30px;
+}
+
+.fetuared-producrs-header, .new-arrivals-header, .most-popular-header{
+    padding-left: 175px;
+    font-weight: bold;
+    
+}
+
+.order{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.padding-left{
+    padding-left: 175px;
+}
+.padding-right{
+    padding-right: 150px;
+}
+.padding-top{
+    padding-top: 10px;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.order-buttom{
+    height: 30px;
+    font-size: 12px;
+    border-radius: 15px;
+    background: none;
+    border-top: 1px solid grey;    
+    border-left: 1px solid grey;
+    
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(243, 242, 242, 0.74);
+    margin-top: 20px;
+    font-size: 12px;
+}
+ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+    line-height: 2em;
+}
+.line-height{
+    line-height: 2em;
+}
+
+
+  .footer-section input{
+        padding-left: 4px;
+        background: none;
+        border:none;
+        color: lightgray;
+       
+    }
+.form-text, .form-email, .form-submit{
+    background: white;
+    font-size: 12px;
+        border-radius: 15px;        
+        border-top: 1px solid grey;    
+        border-left: 1px solid grey;
+        border-right: 1px solid grey;
+        border-bottom: 1px solid grey;      
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+
+}
+
+.form-submit{
+    background: rgb(67, 170, 67);
+    text-align: center;
+}
+
+.form-submit input{
+    color: white;
+    
+}
+
+.testimonails div{
+    width: 250px;
+    
+}
+.testimonails {
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+    line-height: 2em;
+}
+.fa-quote-right{
+    font-size: 7px;
+    color: grey;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.payment-systems{
+    display: grid;
+    grid-template: repeat(2, 20px)/repeat(4, 40px);
+    grid-template-areas: 
+    "paypal . . . "
+    "mastercard visa americanexpress discover";
+}
+.pay-pal{
+    grid-area: paypal;
+}
+.mastercard {
+    grid-area: mastercard;
+}
+.visa{
+    grid-area: visa;
+    
+}
+.american-express {
+    grid-area: americanexpress;
+    padding-left: 6px;
+}
+.discover {
+    grid-area: discover;
+}
+.mark{
+    display: flex;
+    align-items: flex-end;
+    color: lightgray;
+    font-size: 13px;
+}
+
+.social-footer{
+    display: flex;
+    align-items: flex-end;
+   
+}
+.social-footer div{
+    margin-right: 4px;
+}
+
+.icon-mark{
+    margin-right: 4px;
+    margin-bottom: 1px;
+}
