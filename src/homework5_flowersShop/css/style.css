@@ -305,6 +305,10 @@ ul{
 
 }
 
+input[type="text"]:focus, input[type="email"]:focus, input[type="button"]:focus, input[type="submit"]:focus{
+    outline: none;
+}
+
 .form-submit{
     background: rgb(67, 170, 67);
     text-align: center;
