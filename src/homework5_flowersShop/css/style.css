@@ -25,15 +25,14 @@ body {
 }
 .contact {
     display: grid;
-    grid-template: repeat(2, 20px)/repeat(4, 200px);
     grid-template-areas: 
-    "phone text1 text1 text1"
-    "phone text2 text2 text2";
+    "phone text1 "
+    "phone text2 ";
     grid-column-gap: 4px;
     align-items: center;
     font-size: 15px;
     width: 200px;
-    margin-top: 20px;
+    margin: 20px -132px auto 140px;
 }
 
 .icon-phone{
