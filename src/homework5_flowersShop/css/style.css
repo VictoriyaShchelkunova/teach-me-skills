@@ -189,12 +189,12 @@ article {
     padding-bottom: 20px; 
 }
 .image-background{
-    display: grid;
-    grid-template: repeat(14, 35px)/ repeat(10, 70px);
+    position: relative;
 }
 .first-row{
-    grid-row: 5/7;
-    grid-column: -6/-2;
+    position: absolute;
+    top: 140px;
+    left:350px;
     font-size: 50px;
     font-family: "Nautiluspompilius";
     border-bottom: 1px solid lightgray;
@@ -213,10 +213,11 @@ article {
     color: red;
 }
 .second-row{
-    grid-row: 7/8;
-    grid-column: -6/-2;
-    font-size:18px;
-    padding-top: 5px;
+    position: absolute;
+    top: 200px;
+    left:360px;
+    font-size:19px;
+    padding-top: 15px;
     border-bottom: 1px solid lightgray;
     
 }
@@ -231,9 +232,11 @@ article {
     
 }
 .third-row{
-    padding-top: 15px;
-    grid-row: 8/9;
-    grid-column: -5/-3;
+    position: absolute;
+    top: 240px;
+    left:440px;
+    padding-top: 10px;
+   
 }
 
 .featured-products, .new-arrivals, .most-popular{
