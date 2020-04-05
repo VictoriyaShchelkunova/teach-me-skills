@@ -99,13 +99,23 @@ body {
     border-bottom: 2px solid lightgray;
 }
 
-.main-nav, .features {
+
+.main-nav ul, .features {
    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
     border-bottom: 2px solid lightgray;
+}
+.main-nav ul li:first-child{
+    margin-left: 160px;
+}
+.main-nav ul li:nth-child(11){
+    margin-right: 160px;
+}
+li {
+    display:block;
 }
 .main-nav div:first-child, .features div:first-child{
     margin-left: 170px;
@@ -114,7 +124,7 @@ body {
     margin-right: 170px;
 }
 
-div a {
+div a, li a {
     text-decoration: none;
     color: black;
 }
