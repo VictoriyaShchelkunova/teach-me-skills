@@ -244,7 +244,6 @@ article {
 }
 
 .fetuared-products-header, .new-arrivals-header, .most-popular-header{
-    padding-left: 175px;
     font-weight: bold;
     
 }
@@ -254,6 +253,17 @@ article {
     justify-content: space-between;
     margin-top: 20px;
     font-size: 14px;
+    overflow: auto;
+    
+}
+
+.order-list{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 1000px;
+    margin-left: 175px;
+    height: 600px;
 }
 
 .margin-left{
