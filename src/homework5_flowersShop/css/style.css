@@ -21,7 +21,7 @@ body {
     background: none;
     border: none;
     font-weight: bold;
-    padding-right: 200px;    
+    margin-right: 185px;    
 }
 .contact {
     display: grid;
@@ -118,10 +118,10 @@ li {
     display:block;
 }
 .main-nav div:first-child, .features div:first-child{
-    margin-left: 170px;
+    margin-left: 160px;
 }
 .main-nav div:nth-child(11), .features div:last-child{
-    margin-right: 170px;
+    margin-right: 160px;
 }
 
 div a, li a {
@@ -193,8 +193,8 @@ article {
 }
 .first-row{
     position: absolute;
-    top: 140px;
-    left:350px;
+    margin-top: -350px;
+    margin-left:350px;
     font-size: 50px;
     font-family: "Nautiluspompilius";
     border-bottom: 1px solid lightgray;
@@ -214,8 +214,8 @@ article {
 }
 .second-row{
     position: absolute;
-    top: 200px;
-    left:360px;
+    margin-top: -300px;
+    margin-left:360px;
     font-size:19px;
     padding-top: 15px;
     border-bottom: 1px solid lightgray;
@@ -233,17 +233,17 @@ article {
 }
 .third-row{
     position: absolute;
-    top: 240px;
-    left:440px;
+    margin-top: -255px;
+    margin-left:440px;
     padding-top: 10px;
    
 }
 
 .featured-products, .new-arrivals, .most-popular{
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
-.fetuared-producrs-header, .new-arrivals-header, .most-popular-header{
+.fetuared-products-header, .new-arrivals-header, .most-popular-header{
     padding-left: 175px;
     font-weight: bold;
     
@@ -252,15 +252,15 @@ article {
 .order{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    margin-top: 20px;
     font-size: 14px;
 }
 
-.padding-left{
-    padding-left: 175px;
+.margin-left{
+    margin-left: 175px;
 }
-.padding-right{
-    padding-right: 150px;
+.margin-right{
+    margin-right: 150px;
 }
 .padding-top{
     padding-top: 10px;
@@ -338,7 +338,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="button"]:focus,
 .testimonails {
     display: flex;
     flex-direction: column;
-    padding-right: 150px;
+    margin-right: 150px;
     line-height: 2em;
 }
 .fa-quote-right{
