@@ -1,0 +1,82 @@
+
+
+.first{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: teal;
+}
+
+.first .container{
+    display: none;
+}
+
+.first:hover .container{
+    display: flex;
+}
+
+.container{
+    
+    width: 100px;
+    display: flex;
+}
+
+.container-left, .container-right{
+    margin-top: 50px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 10px;
+}
+ .li-item{
+     margin-top: 5px;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     background-color:white;
+ }
+
+ .li-item-right{
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+ }
+
+
+ @keyframes violet{
+     0%{
+         opacity: 0;
+     }
+
+     100%{
+        background-color: violet;
+     }
+ }
+ @keyframes tur{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        background-color: turquoise;
+    }
+}
+
+
+ .li-item{
+     animation-name: violet;
+    animation-delay: 500ms;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+ }
+
+ .li-item-right{
+    animation-name: tur;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+ }
+
