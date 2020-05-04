@@ -95,12 +95,13 @@ li{
 
 
 .bunner-button{
-    margin-right: 518px;
+    width: 16.5%;
+    margin-right: 36.7%;
     text-align: left;
 }
 
 .bunner-button button{
-    width: 180%;
+    width: 100%;
     font-family: "Montserrat-Medium";
     font-size: 14px;
     font-weight: 600;
@@ -110,8 +111,8 @@ li{
     border: none;
     outline: none;
     color: white;
-    padding: 20% 2.96%;
-    margin-top: 20px;   
+    padding: 10.6% 2.96%;
+    margin-top: 10%;   
    
 }
 
