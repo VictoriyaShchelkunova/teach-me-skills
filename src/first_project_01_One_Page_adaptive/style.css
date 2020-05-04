@@ -118,17 +118,17 @@ li{
 
 @media screen and (max-width:1000px){
     .bunner-text h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     .bunner-text p{
-        font-size: 18px;
+        font-size: 13px;
     }
 
     header, .bunner-button button{
-        font-size: 14px;
+        font-size: 9px;
     }
     .bunner-button{
-        margin-right: 44%;
+        margin-right: 39%;
     }
 }
 
